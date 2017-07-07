@@ -134,15 +134,11 @@ p.toggle:focus {
   </div>
 
 	
-<p>Universal Credit is a monthly payment that replaces some other benefits.</p>
-
-<h2>‘Full service’ and ‘live service’</h2>
+<p>Universal Credit is a monthly payment for people in or out of work. It replaces 6 existing benefits and is being rolled out in stages across the UK..</p>
 	
-<p>You’ll get Universal Credit in a different way depending on whether you’re in a ‘full service’ area or a ‘live service’ area.</p>
+<p>Whether you can claim Universal Credit depends on where you live and your circumstances, including your income and how many children you have. </p>
 
-<p>Which kind of area you live in depends on your postcode.</p>
-	
-<h2 id='question'>What’s your postcode?</h2>
+<h2 id='question'>Enter your postcode to find out if you live in a Universal Credit area.</h2>
 
 <p class = "toggle" id = 'full-button' style = 'display:inline-block'
 onclick = 
@@ -181,24 +177,55 @@ if (x.style.display === 'none') {
     }">CC2 3AH</p>
 
 <div id = 'full' style = "display:none">
-<h2>You’re in a full service area</h2>
-<p>You’ll need to:</p>
+<h2>You are in a full service Universal Credit area</h2>
+<p>You can apply for Universal Credit as a single person, a couple or a family.</p> 
+<p>Depending on your circumstances, you can get help with living costs, paying rent, child care, living with a disability or being a carer.</p>
+<p>To be eligible, you must:</p>
 <ul>
-  <li>set up an online account</li>
-  <li>prove your identity online</li>
-  <li>report changes through your ‘journal’</li>
+  <li>be 18 or over</li>
+  <li>be under state pension age - check your State Pension age</li>
+  <li>not be in full time education</li>
+  <li>not have savings over £16,000</li>
 </ul>
-<h2>How much you’ll get</h2>
-<p>The amount of Universal Credit you can get depends on your circumstances, including your income and how many children you have.</p>
-<p>Your Universal Credit payment is made up of a basic ‘standard allowance’ and any extra amounts that apply to you.</p>
+<p>You’ll get less Universal Credit if you have savings over £6,000 or earn enough money to cover your basic living costs.>
+<h2>Your Universal Credit claim is managed online</h2>
+<p>You’ll need to set up an online account to apply. You can use this account to send messages to your work coach and report changes in your financial or household circumstances.</p>
+<p>For help getting online, please speak with your Jobcentre Plus work coach or contact us.</p>
 </div>
 
 <div id = 'live' style = "display:none">
-<h2>You’re in a live service area</h2>
-<p>You’ll need to claim Universal Credit in person at a Jobcentre.
-<h2>Living with your partner</h2>
-<p>Your Universal Credit payment is made up of a basic ‘standard allowance’ and any extra amounts that apply to you.</p>
-<p>You may get more money on top of your standard allowance if you’re eligible.</p>
+<h2>You are in a live service Universal Credit area</h2>
+<p>You can apply for Universal Credit, provided you meet the following conditions:<p>
+<ul>
+  <li>you're 18 or over</li>
+  <li>you're single</li>
+  <li>you're below state pension age - check your State Pension age</li>
+  <li>you have less than £16,000 of savings</li>
+</ul>
+<p>You’ll get less Universal Credit if you have savings over £6,000 or earn enough money to cover your basic living costs.</p>
+<p>However, you currently can’t apply for Universal Credit in your area if you're:<p>
+</ul>
+   <li>expected to earn more than £338 in the next month</li>
+   <li>self employed</li>
+   <li>not able to work or look for work - eg due to an illness or disability</li>
+   <li>in education or training</li>
+   <li>a homeowner</li>
+   <li>homeless</li>
+   <li>a carer, including if you’re a foster carer</li>
+   <li>pregnant or you’ve had a baby within the last 15 weeks</li>
+   <li>liable to pay child maintenance</li>
+   <li>not a British Citizen</li>
+<p>There are other benefits you can claim if the above applies to you.</p>
+<h2>Your Universal Credit claim is managed over the phone</h2>
+<p>Telephone: 0345 600 0723</p>
+<p>Welsh language (make a claim): 0800 012 1888</p> 
+<p>Welsh language (report changes): 0345 600 3018</p> 
+<p>Textphone: 0345 600 0743</p>
+<p>Monday to Friday, 8am to 6pm</p> 
+<p>Find out about call charges</p>
+<p>Live service claims will move to the full service in time (where your claim is managed online). We’ll contact you when this changeover is due to happen to let you know what you need to do.</p>
+
+
 </div>	
 	
 </div>
