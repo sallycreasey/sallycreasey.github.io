@@ -61,7 +61,7 @@
 	display: inline-block;
 	padding: 0.4em;
 	color: white;
-	background-color: black;
+	background-color: #00823b;
 }
 
 .start-again-button:hover {
@@ -188,11 +188,16 @@
 
 <h3 id='question'>Enter your postcode to see if you can get Universal Credit</h3>
 
-
-<div id="postcode-prompt" class="ask_location">
-      <input id="postcode-field" type="text" value="Enter your postcode" onchange="postcodeLookup(this.value)">
+	<div class="ask_location">
+        <label class="instruction" for="postcode">Enter a postcode</label>
+        <p>For example SW1A 2AA</p>
+        <input class="postcode" id="postcode-field" value="" onchange="postcodeLookup(this.value)>
+        <button type="submit" class="button">Find</button>
+        <p>
+          <a target="_blank" id="postcode-finder-link" rel="external" href="http://www.royalmail.com/find-a-postcode">Find a postcode on Royal Mail's postcode finder</a>
+        </p>
       </div>
-
+	
       <p id="response" class="hideable"></p>
 
       <p id="reset-button" class="start-again-button hideable" onclick="resetPostcodeField()">
