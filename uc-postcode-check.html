@@ -76,7 +76,47 @@ p.toggle:focus {
   <body>
     <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
 
-    
+    <script>function postcodeLookup(postcode) {
+	var postcodeInitial = postcode.split("")[0]
+	var response = document.getElementById('response')
+	var responseFull = ' - a \'full service\' area for Universal Credit'
+	var responseLive = ' - a \'live service\' area for Universal Credit'
+	var liveContent = document.getElementById('live-service-content')
+	var fullContent = document.getElementById('full-service-content')
+	var postcodePrompt = document.getElementById('postcode-prompt')
+	var resetButton = document.getElementById('reset-button')
+	if (postcodeInitial > 'M') {
+		liveContent.style.display = 'block'
+		response.style.display = 'block'
+		response.innerHTML = 'You live in ' + postcode + responseLive
+		resetButton.style.display = 'inline-block'
+		postcodePrompt.style.display = 'none'
+	} else if (postcodeInitial < 'M') {
+		fullContent.style.display = 'block'
+		response.style.display = 'block'
+		response.innerHTML = 'You live in ' + postcode + responseFull
+		resetButton.style.display = 'inline-block'
+		postcodePrompt.style.display = 'none'
+	}
+}
+	</script>
+
+	<script> function resetPostcodeField() {
+		var resetButton = document.getElementById('reset-button')
+		var response = document.getElementById('response')
+		var liveContent = document.getElementById('live-service-content')
+		var fullContent = document.getElementById('full-service-content')
+		var postcodePrompt = document.getElementById('postcode-prompt')
+		var postcodeField = document.getElementById('postcode-field')
+
+		liveContent.style.display = 'none'
+		fullContent.style.display = 'none'
+		response.style.display = 'none'
+		resetButton.style.display = 'none'
+		postcodePrompt.style.display = 'block'
+		postcodeField.value = 'Enter a postcode'
+	}
+	</script>
 
     <div id="skiplink-container">
       <div>
