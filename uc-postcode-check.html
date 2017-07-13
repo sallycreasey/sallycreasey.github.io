@@ -82,7 +82,7 @@
 	
 #postcode-field {
 	border: 3px solid black;
-	margin: 1em;
+	margin: 1em 1em 1em 0;
 	font-size: 16px
 }
 	
@@ -198,6 +198,7 @@
 	<div id="postcode-prompt" class="grey-box">
 		<h3>Enter your postcode to see if you can get Universal Credit</h3>
 		<input id="postcode-field" type="text" value="Enter your postcode" onchange="postcodeLookup(this.value)">
+		<button class="button">Find</button>
 	</div>
 	
       <p id="response" class="hideable"></p>
