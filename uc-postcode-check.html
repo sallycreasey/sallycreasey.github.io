@@ -180,43 +180,29 @@ p.toggle:focus {
 
 <h3 id='question'>Enter your postcode to see if you can get Universal Credit</h3>
 
-<p class = "toggle" id = 'full-button' style = 'display:inline-block'
-onclick = 
-"var x = document.getElementById('full')
-var y = document.getElementById('live-button')
-var z = document.getElementById('question')
-var a = document.getElementById('full-button')
-if (x.style.display === 'none') {
-    x.style.display = 'block'
-    y.style.display = 'none'
-    z.style.display = 'none'
-    a.innerHTML = 'Choose a different postcode'
-    } else {
-    x.style.display = 'none'
-    y.style.display = 'inline-block'
-    z.style.display = 'block'
-    a.innerHTML = 'SW1 1AA'
-    }">SW1 1AA</p>
 
-<p class = "toggle" id = 'live-button' style = 'display:inline-block'
-onclick = 
-"var x = document.getElementById('live')
-var y = document.getElementById('full-button')
-var z = document.getElementById('question')
-var a = document.getElementById('live-button')
-if (x.style.display === 'none') {
-    x.style.display = 'block'
-    y.style.display = 'none'
-    z.style.display = 'none'
-    a.innerHTML = 'Choose a different postcode'
-    } else {
-    x.style.display = 'none'
-    y.style.display = 'inline-block'
-    z.style.display = 'block'
-    a.innerHTML = 'CC2 3AH'
-    }">CC2 3AH</p>
+<div id="postcode-prompt">
+      <p>What's your postcode?</p>
+      <input id="postcode-field" type="text" value="Enter your postcode" onchange="postcodeLookup(this.value)">
+      </div>
 
-<div id = 'full' style = "display:none">
+      <p id="response" class="hideable"></p>
+
+      <p id="reset-button" class="button hideable" onclick="resetPostcodeField()">
+      Enter a different postcode</p>
+
+      <div id="live-service-content" class="hideable">
+      <h2>Live service content</h2>
+      <p>Integer gravida tempor metus eget condimentum. Integer eget iaculis tortor. Nunc sed ligula sed augue rutrum ultrices eget nec odio. Morbi rhoncus, sem laoreet tempus pulvinar, leo diam varius nisi, sed accumsan ligula urna sed felis.</p>
+      </div>
+
+      <div id="full-service-content" class="hideable">
+      <h2>Full service content</h2>
+      <p>Integer gravida tempor metus eget condimentum. Integer eget iaculis tortor. Nunc sed ligula sed augue rutrum ultrices eget nec odio. Morbi rhoncus, sem laoreet tempus pulvinar, leo diam varius nisi, sed accumsan ligula urna sed felis.</p>
+</div>
+	
+	
+<div id = 'full-service-content' style = "display:none">
 <h2>You are in a full service Universal Credit area</h2>
 <p>You can apply for Universal Credit as a single person, a couple or a family.</p> 
 <p>Depending on your circumstances, you can get help with living costs, paying rent, child care, living with a disability or being a carer.</p>
@@ -233,7 +219,7 @@ if (x.style.display === 'none') {
 <p>For help getting online, please speak with your Jobcentre Plus work coach or <a href="https://www.gov.uk/universal-credit/how-to-claim">contact us.</a></p>
 </div>
 
-<div id = 'live' style = "display:none">
+<div id = 'live-service-content' style = "display:none">
 <h2>You are in a live service Universal Credit area</h2>
 <p>You can apply for Universal Credit.</p> 
 <p>To be eligible, you must:</p>
