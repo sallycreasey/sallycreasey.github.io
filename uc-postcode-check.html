@@ -57,20 +57,24 @@
 	display: none;
 }
 
-.button {
+.start-again-button {
 	display: inline-block;
 	padding: 0.4em;
 	color: white;
 	background-color: black;
 }
 
-.button:hover {
+.start-again-button:hover {
 	background-color: darkgrey;
 	cursor: pointer;
 }
 
-.button.hideable {
+.start-again-button.hideable {
 	display: none;
+}
+	
+#postcode-field {
+	font-size: 16px
 }
 	
 </style>
@@ -185,28 +189,16 @@
 <h3 id='question'>Enter your postcode to see if you can get Universal Credit</h3>
 
 
-<div id="postcode-prompt">
-      <p>What's your postcode?</p>
+<div id="postcode-prompt" class="ask_location">
       <input id="postcode-field" type="text" value="Enter your postcode" onchange="postcodeLookup(this.value)">
       </div>
 
       <p id="response" class="hideable"></p>
 
-      <p id="reset-button" class="button hideable" onclick="resetPostcodeField()">
+      <p id="reset-button" class="start-again-button hideable" onclick="resetPostcodeField()">
       Enter a different postcode</p>
-
-      <div id="live-service-content" class="hideable">
-      <h2>Live service content</h2>
-      <p>Integer gravida tempor metus eget condimentum. Integer eget iaculis tortor. Nunc sed ligula sed augue rutrum ultrices eget nec odio. Morbi rhoncus, sem laoreet tempus pulvinar, leo diam varius nisi, sed accumsan ligula urna sed felis.</p>
-      </div>
-
-      <div id="full-service-content" class="hideable">
-      <h2>Full service content</h2>
-      <p>Integer gravida tempor metus eget condimentum. Integer eget iaculis tortor. Nunc sed ligula sed augue rutrum ultrices eget nec odio. Morbi rhoncus, sem laoreet tempus pulvinar, leo diam varius nisi, sed accumsan ligula urna sed felis.</p>
-</div>
 	
-	
-<div id = 'full-service-content' style = "display:none">
+<div id="full-service-content" class="hideable">
 <h2>You are in a full service Universal Credit area</h2>
 <p>You can apply for Universal Credit as a single person, a couple or a family.</p> 
 <p>Depending on your circumstances, you can get help with living costs, paying rent, child care, living with a disability or being a carer.</p>
@@ -223,7 +215,7 @@
 <p>For help getting online, please speak with your Jobcentre Plus work coach or <a href="https://www.gov.uk/universal-credit/how-to-claim">contact us.</a></p>
 </div>
 
-<div id = 'live-service-content' style = "display:none">
+<div id="live-service-content" class="hideable">
 <h2>You are in a live service Universal Credit area</h2>
 <p>You can apply for Universal Credit.</p> 
 <p>To be eligible, you must:</p>
