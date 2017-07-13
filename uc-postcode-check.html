@@ -60,12 +60,13 @@
 .start-again-button {
 	display: inline-block;
 	padding: 0.4em;
+	margin: 0 2em 0 0;
 	color: white;
 	background-color: #00823b;
 }
 
 .start-again-button:hover {
-	background-color: darkgrey;
+	background-color: darkgreen;
 	cursor: pointer;
 }
 
@@ -73,8 +74,21 @@
 	display: none;
 }
 	
+.grey-box {
+	padding: 1.2em;
+	max-width: 70%;
+	background-color: lightgrey;
+	
+}
+	
 #postcode-field {
-	font-size: 16px
+	border: 1px solid black;
+	margin: 1em 1em 1em 0;
+	font-size: 18px
+}
+	
+.button {
+	max-width: 130px;
 }
 	
 </style>
@@ -87,8 +101,8 @@
     <script>function postcodeLookup(postcode) {
 	var postcodeInitial = postcode.split("")[0]
 	var response = document.getElementById('response')
-	var responseFull = ' - a \'full service\' area for Universal Credit'
-	var responseLive = ' - a \'live service\' area for Universal Credit'
+	var responseFull = ' - a \‘full service\’ area for Universal Credit'
+	var responseLive = ' - a \‘live service\’ area for Universal Credit'
 	var liveContent = document.getElementById('live-service-content')
 	var fullContent = document.getElementById('full-service-content')
 	var postcodePrompt = document.getElementById('postcode-prompt')
@@ -186,10 +200,14 @@
 	
 <p>Whether you can claim Universal Credit depends on where you live and your circumstances, including your income and how many children you have. </p>
 
-<h3 id='question'>Enter your postcode to see if you can get Universal Credit</h3>
-
-	<div id="postcode-prompt">
-		<input id="postcode-field" type="text" value="Enter your postcode" onchange="postcodeLookup(this.value)">
+	<div id="postcode-prompt" class="grey-box">
+		<h3>Enter your postcode to see if you can get Universal Credit</h3>
+		<p>For example SW1A 2AA</p>
+		<input id="postcode-field" type="text" value="" onchange="postcodeLookup(this.value)">
+		<button class="button">Find</button>
+		<p>
+          		<a target="_blank" id="postcode-finder-link" rel="external" href="http://www.royalmail.com/find-a-postcode">Find a postcode on Royal Mail's postcode finder</a>
+	        </p>
 	</div>
 	
       <p id="response" class="hideable"></p>
@@ -198,7 +216,7 @@
       Enter a different postcode</p>
 	
 <div id="full-service-content" class="hideable">
-<h2>You are in a full service Universal Credit area</h2>
+<h2>You’re in a full service Universal Credit area</h2>
 <p>You can apply for Universal Credit as a single person, a couple or a family.</p> 
 <p>Depending on your circumstances, you can get help with living costs, paying rent, child care, living with a disability or being a carer.</p>
 <p>To be eligible, you must:</p>
@@ -215,7 +233,7 @@
 </div>
 
 <div id="live-service-content" class="hideable">
-<h2>You are in a live service Universal Credit area</h2>
+<h2>You’re in a live service Universal Credit area</h2>
 <p>You can apply for Universal Credit.</p> 
 <p>To be eligible, you must:</p>
 <ul>
