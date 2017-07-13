@@ -81,14 +81,13 @@
 }
 	
 #postcode-field {
-	border: 3px solid black;
+	border: 1px solid black;
 	margin: 1em 1em 1em 0;
-	font-size: 16px
+	font-size: 18px
 }
 	
 .button {
 	max-width: 130px;
-	background-image: none;
 }
 	
 </style>
@@ -202,8 +201,12 @@
 
 	<div id="postcode-prompt" class="grey-box">
 		<h3>Enter your postcode to see if you can get Universal Credit</h3>
+		<p>For example SW1A 2AA</p>
 		<input id="postcode-field" type="text" value="Enter your postcode" onchange="postcodeLookup(this.value)">
 		<button class="button">Find</button>
+		<p>
+          		<a target="_blank" id="postcode-finder-link" rel="external" href="http://www.royalmail.com/find-a-postcode">Find a postcode on Royal Mail's postcode finder</a>
+	        </p>
 	</div>
 	
       <p id="response" class="hideable"></p>
