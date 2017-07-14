@@ -110,13 +110,13 @@
 	if (postcodeInitial > 'M') {
 		liveContent.style.display = 'block'
 		response.style.display = 'block'
-		response.innerHTML = 'You live in ' + postcode + responseLive
+		response.innerHTML = 'You live in ' + postcode
 		resetButton.style.display = 'inline-block'
 		postcodePrompt.style.display = 'none'
 	} else if (postcodeInitial < 'M') {
 		fullContent.style.display = 'block'
 		response.style.display = 'block'
-		response.innerHTML = 'You live in ' + postcode + responseFull
+		response.innerHTML = 'You live in ' + postcode
 		resetButton.style.display = 'inline-block'
 		postcodePrompt.style.display = 'none'
 	}
