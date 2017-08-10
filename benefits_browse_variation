@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="lte-ie8" lang="en"><![endif]--><!--[if gt IE 8]><!--><html lang="en">
+<!--<![endif]-->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Benefits - GOV.UK</title>
+
+    <!--[if gt IE 8]><!--><link href="https://assets.publishing.service.gov.uk/static/govuk-template-2775f99eaec64ff8121bfbfb3eb67b0c2b4b7c3fc78d25da30e12db2a09d30d6.css" media="screen" rel="stylesheet">
+<!--<![endif]-->
+    <!--[if IE 6]><link href="https://assets.publishing.service.gov.uk/static/govuk-template-ie6-5bb08c355a12ac38b0ac9d2446da122ec0f81c78e02dcd2a98766f53c23793c8.css" media="screen" rel="stylesheet" /><![endif]-->
+    <!--[if IE 7]><link href="https://assets.publishing.service.gov.uk/static/govuk-template-ie7-be1ea757827710f20eae59ae3ebfd172b7dbeabb171a79945ba610947eebb3cc.css" media="screen" rel="stylesheet" /><![endif]-->
+    <!--[if IE 8]><link href="https://assets.publishing.service.gov.uk/static/govuk-template-ie8-5ab4d0c7b42f2bf10f8c7aadf331a11f7399be832b0ee2c68c94071195a1e36e.css" media="screen" rel="stylesheet" /><![endif]-->
+    <link href="https://assets.publishing.service.gov.uk/static/govuk-template-print-1076519521c2fffbbf75ab3b0d3b32ee2d96ac7e9778f1cdfac1771eefd1a1c0.css" media="print" rel="stylesheet">
+
+    <!--[if IE 8]><link href="https://assets.publishing.service.gov.uk/static/fonts-ie8-f5e3c18a96ecb0f37246556a27330202d6e18feffa05a3b67825024609629ac8.css" media="all" rel="stylesheet" /><![endif]-->
+    <!--[if gte IE 9]><!--><link href="https://assets.publishing.service.gov.uk/static/fonts-5ff8c53913434afd0072a480d7cfca67cace4c8d03f6ef96b78a4455728ce745.css" media="all" rel="stylesheet">
+<!--<![endif]-->
+    <!--[if lt IE 9]><script src="https://assets.publishing.service.gov.uk/static/ie-75db9d4df4993de5335d6e49013362743a78107245bcf6543337a0ecc0a95b41.js"></script><![endif]-->
+
+    <link rel="shortcut icon" href="https://assets.publishing.service.gov.uk/static/favicon-8d811b8c3badbc0b0e2f6e25d3660a96cc0cca7993e6f32e98785f205fc40907.ico" type="image/x-icon">
+    <link rel="mask-icon" href="https://assets.publishing.service.gov.uk/static/gov.uk_logotype_crown-a0097118fe9226ce1ffde1ccfeb86c61be3607915046196c99f68b9548485ad3.svg" color="#0b0c0c">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://assets.publishing.service.gov.uk/static/apple-touch-icon-180x180-ea1cbb1cbbeddfff275dfa6e8e46b84cd530892df79dc4882a8f99b802b49a90.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="https://assets.publishing.service.gov.uk/static/apple-touch-icon-167x167-181e404a50c572923285fb83f0fbd78da6b4e38e3ce52f8e6b8e29da8586450a.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://assets.publishing.service.gov.uk/static/apple-touch-icon-152x152-02457fcdcee8d309276305af2233d41bfb8fd055e855727d355e61bce7ffa9bb.png">
+    <link rel="apple-touch-icon" href="https://assets.publishing.service.gov.uk/static/apple-touch-icon-a318f305290c523aed80082456175b46c95350c0eeac93f42e78a71c7a55544e.png">
+
+    <meta name="theme-color" content="#0b0c0c">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="https://assets.publishing.service.gov.uk/static/opengraph-image-a1f7d89ffd0782738b1aeb0da37842d8bd0addbd724b8e58c3edbc7287cc11de.png">
+
+      <!--[if gt IE 8]><!--><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/core-layout-42de30dac218d01e072e6120b3d86b521270506a1eec4b49aff9eb90292122b4.css">
+<!--<![endif]-->
+<!--[if IE 6]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/core-layout-ie6-2d1ec720ca3ed5fdfa280ea6f1812b54a4b9a9c5e646c4ae1d3541d41aa9100a.css" /><script>var ieVersion = 6;</script><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/core-layout-ie7-ccc3e9aa26c84159d0be3be7b6278901f8e1a8317068eff7090269d9ae196e75.css" /><script>var ieVersion = 7;</script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/core-layout-ie8-3becddbc46926a1a333457fdf02e4bc2f3758408f8649d6d178396ecebc044e3.css" /><script>var ieVersion = 8;</script><![endif]-->
+
+<link rel="stylesheet" media="print" href="https://assets.publishing.service.gov.uk/static/core-layout-print-63130f3b3fe879797c3ec86076d758bc14d0ea75658f6852aa7c990623a07174.css">
+
+
+  <!--[if gt IE 8]><!--><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/collections/application-48d9bc40a665e1fcb0bc913e372d890b5f53e299f3d6888dc76cef28e0f6f505.css">
+<!--<![endif]--><link rel="alternate" type="application/json" href="/api/content/browse/benefits">
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="IlhUO2wkQ0mQOSZ7NRekrv1oRxY9poUyFrdaNZmJyn4Gr/+R3pnqX2rtw5HvNSvBhiJ439Dw2kKOCqGxBsqhEg==">
+<meta name="description" content="Includes eligibility, appeals, tax credits and Universal Credit">
+<meta name="govuk:format" content="mainstream_browse_page">
+<meta name="govuk:schema-name" content="mainstream_browse_page">
+<meta name="govuk:user-journey-stage" content="finding">
+<meta name="govuk:navigation-document-type" content="other">
+<!--[if IE 6]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/collections/application-ie6-7fa00f91e8b74ed7857fc37d8ee2de6d943ad1092319320af9434d5493519454.css" /><script>var ieVersion = 6;</script><![endif]--><!--[if IE 7]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/collections/application-ie7-7bf0d5aa3f4d0d859f231b2defab212bf4a423f8007f5934e29ae196c7fc9067.css" /><script>var ieVersion = 7;</script><![endif]--><!--[if IE 8]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/collections/application-ie8-5ffe5e97a58568e82d85e4b7af61bed53f3db0a272a35b0e66b7a8e976e20e09.css" /><script>var ieVersion = 8;</script><![endif]--><meta name="govuk:rendering-application" content="collections">
+</head>
+
+  <body>
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+
+    
+
+    <div id="skiplink-container">
+      <div>
+        <a href="#content" class="skiplink">Skip to main content</a>
+      </div>
+    </div>
+
+    <div id="global-cookie-message">
+        <p>GOV.UK uses cookies to make the site simpler. <a href="https://www.gov.uk/help/cookies">Find out more about cookies</a></p>
+    </div>
+
+    <header role="banner" id="global-header" class="">
+      <div class="header-wrapper">
+        <div class="header-global">
+          <div class="header-logo">
+            <a href="https://www.gov.uk" title="Go to the GOV.UK homepage" id="logo" class="content">
+              <img src="https://assets.publishing.service.gov.uk/static/gov.uk_logotype_crown_invert_trans-203e1db49d3eff430d7dc450ce723c1002542fe1d2bce661b6d8571f14c1043c.png" width="36" height="32" alt=""> GOV.UK
+            </a>
+          </div>
+            <a href="#search" class="search-toggle js-header-toggle">Search</a>
+
+  <form id="search" class="site-search" action="/search" method="get" role="search">
+    <div class="content">
+      <label for="site-search-text">Search</label>
+      <input type="search" name="q" id="site-search-text" title="Search" class="js-search-focus">
+      <input class="submit" type="submit" value="Search">
+    </div>
+  </form>
+
+        </div>
+        
+      </div>
+    </header>
+
+      <div id="user-satisfaction-survey-container"></div>
+
+
+    <div id="global-header-bar"></div>
+
+      <div class="wrapper" id="wrapper">
+      
+<div class="govuk-breadcrumbs " data-module="track-click">
+  <ol>
+
+    <li class="">
+        <a data-track-category="breadcrumbClicked" data-track-action="1" data-track-label="/" data-track-options='{"dimension28":"1","dimension29":"Home"}' class="" aria-current="false" href="/">Home</a>
+    </li>
+  </ol>
+</div>
+
+
+
+    <main id="content" role="main" class="content browse">
+      
+
+<div class="browse-panes section" data-state="section" data-module="track-click">
+  <div id="section" class="section-pane pane with-sort">
+    <div class="pane-inner alphabetical">
+  <h1 tabindex="-1">Benefits</h1>
+    <p class="sort-order">A to Z</p>
+  <ul>
+      <li class="">
+        <a data-track-category="secondLevelBrowseLinkClicked" data-track-action="1" data-track-label="/browse/benefits/entitlement" data-track-options='{"dimension28":"8","dimension29":"Benefits entitlement"}' href="/browse/benefits/entitlement">
+          <h3>Benefits entitlement</h3>
+          <p>Includes when and how benefit payments are made, benefits calculators and benefit fraud</p>
+</a>      </li>
+      <li class="">
+        <a data-track-category="secondLevelBrowseLinkClicked" data-track-action="2" data-track-label="/browse/benefits/families" data-track-options='{"dimension28":"8","dimension29":"Benefits for families"}' href="/browse/benefits/families">
+          <h3>Benefits for families</h3>
+          <p>Includes Child Trust Funds, childcare and the Sure Start Maternity Grant</p>
+</a>      </li>
+      <li class="">
+        <a data-track-category="secondLevelBrowseLinkClicked" data-track-action="3" data-track-label="/browse/benefits/disability" data-track-options='{"dimension28":"8","dimension29":"Carers and disability benefits"}' href="/browse/benefits/disability">
+          <h3>Carers and disability benefits</h3>
+          <p>Includes Disability Living Allowance, Carer's Allowance and Employment and Support Allowance</p>
+</a>      </li>
+      <li class="">
+        <a data-track-category="secondLevelBrowseLinkClicked" data-track-action="4" data-track-label="/browse/benefits/child" data-track-options='{"dimension28":"8","dimension29":"Child Benefit"}' href="/browse/benefits/child">
+          <h3>Child Benefit</h3>
+          <p>Information about eligibility, claiming and when Child Benefit stops</p>
+</a>      </li>
+      <li class="">
+        <a data-track-category="secondLevelBrowseLinkClicked" data-track-action="5" data-track-label="/browse/benefits/bereavement" data-track-options='{"dimension28":"8","dimension29":"Death and benefits"}' href="/browse/benefits/bereavement">
+          <h3>Death and benefits</h3>
+          <p>Includes Widowed Parent's Allowance, Bereavement Payment, Funeral Payment</p>
+</a>      </li>
+      <li class="">
+        <a data-track-category="secondLevelBrowseLinkClicked" data-track-action="6" data-track-label="/browse/benefits/heating" data-track-options='{"dimension28":"8","dimension29":"Heating and housing benefits"}' href="/browse/benefits/heating">
+          <h3>Heating and housing benefits</h3>
+          <p>Includes Winter Fuel Payment and Cold Weather Payment</p>
+</a>      </li>
+      <li class="">
+        <a data-track-category="secondLevelBrowseLinkClicked" data-track-action="7" data-track-label="/browse/benefits/jobseekers-allowance" data-track-options="{&quot;dimension28&quot;:&quot;8&quot;,&quot;dimension29&quot;:&quot;Jobseeker's Allowance and low income benefits&quot;}" href="/browse/benefits/jobseekers-allowance">
+          <h3>Jobseeker's Allowance and low income benefits</h3>
+          <p>Includes Income Support, Budgeting Loans and Pension Credit</p>
+</a>      </li>
+      <li class="">
+        <a data-track-category="secondLevelBrowseLinkClicked" data-track-action="8" data-track-label="/browse/benefits/tax-credits" data-track-options='{"dimension28":"8","dimension29":"Tax credits"}' href="/browse/benefits/tax-credits">
+          <h3>Tax credits</h3>
+          <p>Includes Working Tax Credit, Child Tax Credit and when tax credits stop</p>
+</a>      </li>
+<li class="">
+        <a data-track-category="secondLevelBrowseLinkClicked" data-track-action="8" data-track-label="/browse/benefits/universal-credit" data-track-options='{"dimension28":"8","dimension29":"Universal Credit"}' href="/browse/benefits/universal-credit">
+          <h3>Universal Credit</h3>
+          <p>Includes what it is, eligibility, how to apply, housing and managing your account</p>
+</a>      </li>
+  </ul>
+</div>
+
+  </div>
+
+  <div id="root" class="pane root-pane">
+  <h1 class="visuallyhidden" tabindex="-1">All categories</h1>
+  <ul>
+      <li class="active">
+        <a class="" data-track-category="firstLevelBrowseLinkClicked" data-track-action="1" data-track-label="/browse/benefits" data-track-options='{"dimension28":"16","dimension29":"Benefits"}' href="/browse/benefits">Benefits</a>
+      </li>
+      <li class="">
+        <a class="" data-track-category="firstLevelBrowseLinkClicked" data-track-action="2" data-track-label="/browse/births-deaths-marriages" data-track-options='{"dimension28":"16","dimension29":"Births, deaths, marriages and care"}' href="/browse/births-deaths-marriages">Births, deaths, marriages and care</a>
+      </li>
+      <li class="">
+        <a class="" data-track-category="firstLevelBrowseLinkClicked" data-track-action="3" data-track-label="/browse/business" data-track-options='{"dimension28":"16","dimension29":"Business and self-employed"}' href="/browse/business">Business and self-employed</a>
+      </li>
+      <li class="">
+        <a class="" data-track-category="firstLevelBrowseLinkClicked" data-track-action="4" data-track-label="/browse/childcare-parenting" data-track-options='{"dimension28":"16","dimension29":"Childcare and parenting"}' href="/browse/childcare-parenting">Childcare and parenting</a>
+      </li>
+      <li class="">
+        <a class="" data-track-category="firstLevelBrowseLinkClicked" data-track-action="5" data-track-label="/browse/citizenship" data-track-options='{"dimension28":"16","dimension29":"Citizenship and living in the UK"}' href="/browse/citizenship">Citizenship and living in the UK</a>
+      </li>
+      <li class="">
+        <a class="" data-track-category="firstLevelBrowseLinkClicked" data-track-action="6" data-track-label="/browse/justice" data-track-options='{"dimension28":"16","dimension29":"Crime, justice and the law"}' href="/browse/justice">Crime, justice and the law</a>
+      </li>
+      <li class="">
+        <a class="" data-track-category="firstLevelBrowseLinkClicked" data-track-action="7" data-track-label="/browse/disabilities" data-track-options='{"dimension28":"16","dimension29":"Disabled people"}' href="/browse/disabilities">Disabled people</a>
+      </li>
+      <li class="">
+        <a class="" data-track-category="firstLevelBrowseLinkClicked" data-track-action="8" data-track-label="/browse/driving" data-track-options='{"dimension28":"16","dimension29":"Driving and transport"}' href="/browse/driving">Driving and transport</a>
+      </li>
+      <li class="">
+        <a class="" data-track-category="firstLevelBrowseLinkClicked" data-track-action="9" data-track-label="/browse/education" data-track-options='{"dimension28":"16","dimension29":"Education and learning"}' href="/browse/education">Education and learning</a>
+      </li>
+      <li class="">
+        <a class="" data-track-category="firstLevelBrowseLinkClicked" data-track-action="10" data-track-label="/browse/employing-people" data-track-options='{"dimension28":"16","dimension29":"Employing people"}' href="/browse/employing-people">Employing people</a>
+      </li>
+      <li class="">
+        <a class="" data-track-category="firstLevelBrowseLinkClicked" data-track-action="11" data-track-label="/browse/environment-countryside" data-track-options='{"dimension28":"16","dimension29":"Environment and countryside"}' href="/browse/environment-countryside">Environment and countryside</a>
+      </li>
+      <li class="">
+        <a class="" data-track-category="firstLevelBrowseLinkClicked" data-track-action="12" data-track-label="/browse/housing-local-services" data-track-options='{"dimension28":"16","dimension29":"Housing and local services"}' href="/browse/housing-local-services">Housing and local services</a>
+      </li>
+      <li class="">
+        <a class="" data-track-category="firstLevelBrowseLinkClicked" data-track-action="13" data-track-label="/browse/tax" data-track-options='{"dimension28":"16","dimension29":"Money and tax"}' href="/browse/tax">Money and tax</a>
+      </li>
+      <li class="">
+        <a class="" data-track-category="firstLevelBrowseLinkClicked" data-track-action="14" data-track-label="/browse/abroad" data-track-options='{"dimension28":"16","dimension29":"Passports, travel and living abroad"}' href="/browse/abroad">Passports, travel and living abroad</a>
+      </li>
+      <li class="">
+        <a class="" data-track-category="firstLevelBrowseLinkClicked" data-track-action="15" data-track-label="/browse/visas-immigration" data-track-options='{"dimension28":"16","dimension29":"Visas and immigration"}' href="/browse/visas-immigration">Visas and immigration</a>
+      </li>
+      <li class="">
+        <a class="" data-track-category="firstLevelBrowseLinkClicked" data-track-action="16" data-track-label="/browse/working" data-track-options='{"dimension28":"16","dimension29":"Working, jobs and pensions"}' href="/browse/working">Working, jobs and pensions</a>
+      </li>
+  </ul>
+</div>
+
+</div>
+
+    </main>
+  <div class="report-a-problem-container">
+  <div class="report-a-problem-inner">
+    <div class="report-a-problem-content">
+      <h2>Help us improve GOV.UK</h2>
+      <form accept-charset="UTF-8" action="/contact/govuk/problem_reports" method="post">
+        <div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"></div>
+        <input id="url" name="url" type="hidden" value="https://www.gov.uk/browse/benefits">
+        
+          <input id="source" name="source" type="hidden" value="">
+        
+        
+          <input id="page_owner" name="page_owner" type="hidden" value="">
+        
+
+        <p>Don’t include personal or financial information like your National Insurance number or credit card details.</p>
+
+        <label for="what_doing">What you were doing</label>
+        <input id="what_doing" name="what_doing" type="text">
+
+        <label for="what_wrong">What went wrong</label>
+        <input id="what_wrong" name="what_wrong" type="text">
+
+        <div class="button-wrapper">
+          <button name="commit" type="submit" class="button">Send</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+
+
+    <footer class="group js-footer" id="footer" role="contentinfo">
+
+      <div class="footer-wrapper">
+            <div class="footer-categories">
+      <div class="footer-explore">
+        <h2>Services and information</h2>
+
+        <ul>
+          <li><a href="/browse/benefits">Benefits</a></li>
+          <li><a href="/browse/births-deaths-marriages">Births, deaths, marriages and care</a></li>
+          <li><a href="/browse/business">Business and self-employed</a></li>
+          <li><a href="/browse/childcare-parenting">Childcare and parenting</a></li>
+          <li><a href="/browse/citizenship">Citizenship and living in the UK</a></li>
+          <li><a href="/browse/justice">Crime, justice and the law</a></li>
+          <li><a href="/browse/disabilities">Disabled people</a></li>
+          <li><a href="/browse/driving">Driving and transport</a></li>
+        </ul>
+        <ul>
+          <li><a href="/browse/education">Education and learning</a></li>
+          <li><a href="/browse/employing-people">Employing people</a></li>
+          <li><a href="/browse/environment-countryside">Environment and countryside</a></li>
+          <li><a href="/browse/housing-local-services">Housing and local services</a></li>
+          <li><a href="/browse/tax">Money and tax</a></li>
+          <li><a href="/browse/abroad">Passports, travel and living abroad</a></li>
+          <li><a href="/browse/visas-immigration">Visas and immigration</a></li>
+          <li><a href="/browse/working">Working, jobs and pensions</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-inside-government">
+        <h2>Departments and policy</h2>
+
+        <ul>
+          <li><a href="/government/how-government-works">How government works</a></li>
+          <li><a href="/government/organisations">Departments</a></li>
+          <li><a href="/government/world">Worldwide</a></li>
+          <li><a href="/government/policies">Policies</a></li>
+          <li><a href="/government/publications">Publications</a></li>
+          <li><a href="/government/announcements">Announcements</a></li>
+        </ul>
+      </div>
+      <hr>
+    </div>
+
+
+        <div class="footer-meta">
+          <div class="footer-meta-inner">
+              <h2 class="visuallyhidden">Support links</h2>
+<ul>
+  <li><a href="/help">Help</a></li>
+  <li><a href="/help/cookies">Cookies</a></li>
+  <li><a href="/contact">Contact</a></li>
+  <li><a href="/help/terms-conditions">Terms and conditions</a></li>
+  <li><a href="/cymraeg" lang="cy" hreflang="cy">Rhestr o Wasanaethau Cymraeg</a></li>
+  <li>Built by the <a href="https://www.gov.uk/government/organisations/government-digital-service">Government Digital Service</a>
+</li>
+</ul>
+
+
+
+            <div class="open-government-licence">
+              <p class="logo"><a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence</a></p>
+                <p>All content is available under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, except where otherwise stated</p>
+            </div>
+          </div>
+
+          <div class="copyright">
+            <a href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright-and-re-use/crown-copyright/">© Crown copyright</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="global-app-error" class="app-error hidden"></div>
+
+    <script src="https://assets.publishing.service.gov.uk/static/govuk-template-c4f303154d2a238bdda4d5cf1ebd8d4487822e4cbc3e4c83e743da869443ce72.js"></script>
+
+      <script src="https://assets.publishing.service.gov.uk/static/libs/jquery/jquery-1.12.4-cb0decd18b4b0abbece3cfc180d9adc8e11dfa693cf34c2ff1ffcda86e725301.js"></script>
+<script src="https://assets.publishing.service.gov.uk/static/header-footer-only-9f5e3818b735a3881a69a82bdd7e5edd66a1bc892cbc3487ceaf390216996360.js"></script>
+<script src="https://assets.publishing.service.gov.uk/static/surveys-b18efa45d0ff3dfd07638aad58b9964e510c8d4ef9c4a8a2d315683f55501ddd.js"></script>
+
+
+
+    <script>if (typeof window.GOVUK === 'undefined') document.body.className = document.body.className.replace('js-enabled', '');</script>
+  <script src="https://assets.publishing.service.gov.uk/collections/application-57ef37907f7153c1659e4bc60b8e0c2126b971618a59f56bce60f7839f751d41.js"></script>
+</body>
+</html>
