@@ -112,7 +112,7 @@
     </li>
 
     <li class="">
-        <a data-track-category="breadcrumbClicked" data-track-action="3" data-track-label="/browse/benefits/universal-credit" data-track-options='{"dimension28":"3","dimension29":"Universal Credit"}' class="" aria-current="false" href="/browse/benefits/universal-credit">Universal Credit</a>
+        <a data-track-category="breadcrumbClicked" data-track-action="3" data-track-label="/browse/benefits/universal-credit" data-track-options='{"dimension28":"3","dimension29":"Universal Credit"}' class="" aria-current="false" href="https://sallycreasey.github.io/benefits_browse_variation_third_level_nav.html">Universal Credit</a>
     </li>
   </ol>
 </div>
@@ -129,7 +129,8 @@
 
     
 <div class="govuk-govspeak direction-ltr rich-govspeak disable-youtube">
-  <p>You could get money to help pay your housing costs. Your eligibility and how much you get depends on your age and circumstances.</p>
+
+<p>You could get money to help pay your housing costs. Your eligibility and how much you get depends on your age and circumstances.</p>
 
 <p>The payment can cover:</p>
 <ul>
@@ -160,11 +161,13 @@
 <h2 id="paying-your-mortgage">Paying your mortgage</h2>
 
 <p>If you or your partner own the home you live in, your Universal Credit payment may include Support for Mortgage Interest (SMI). The amount you receive is based on a set rate of interest on your outstanding mortgage. It will be paid direct to your mortgage lender.</p> 
+
 <p>If your house is leasehold you can also get help with some service charges.</p>
 
 <h2 id="evidence-you-need-to-provide">Evidence you need to provide</h2>
 
 <p>When you apply for Universal Credit you need to provide evidence of your rent or mortgage payments, for example:</p>
+
 <ul>
 <li>current tenancy agreement</li>
 <li>current rent statement</li>
@@ -181,6 +184,7 @@
 <h2 id="18-to-21-year-olds">If you're between 18 and 21</h2>
 
 <p>If you’re between 18 to 21, you won’t usually get help with housing costs if you make a new claim for Universal Credit, live in a full service area and you:</p>
+
 <ul>
 <li>aren’t working</li>
 <li>are working but your earnings are below the minimum in-work threshold (for 18 to 20 year olds who are not apprentices this is £89.60 a week)</li>
